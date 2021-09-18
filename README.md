@@ -18,10 +18,14 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-Assume the dev (or stage or prod) role beforehand. See [assume-role](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sts/assume-role.html) in the AWS CLI.
+```bash
+usage: aws_secret.py [-h] --secret_id SECRET_NAME
+```
+
+Example:
 
 ```bash
-usage: aws_secret
+AWS_DEFAULT_REGION=us-east-2 aws_secret.py -s test
 ```
 
 ## References
