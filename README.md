@@ -19,7 +19,7 @@ pip3 install -r requirements.txt
 ## Usage
 
 ```bash
-usage: aws_secret.py [-h] --secret_id SECRET_NAME
+usage: aws_secret.py [-h] --secret_id SECRET_ID
 ```
 
 Example:
